@@ -10,6 +10,10 @@ export const AboutContainer = styled.div`
     width: 70%;
     padding-bottom: 1rem;
     border-radius: 10px;
+
+    @media (max-width: 650px){
+        width: 100%;
+    }
 `
 
 export const AboutTitle = styled.h1`

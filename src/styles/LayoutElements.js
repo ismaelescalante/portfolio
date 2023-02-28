@@ -32,7 +32,7 @@ export const NavLogo = styled.h2`
     }
 `
 export const NavImg = styled.img`
-    border-radius: 60px;
+    border-radius: 50%;
     border: 1px solid black;
     height: 55px;
     margin-right: 2rem;

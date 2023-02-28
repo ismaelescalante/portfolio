@@ -25,6 +25,7 @@ export const ContactP = styled.p`
     margin-top: 75px;
 `
 
+
 export const ContactIcons = styled.div`
     display: flex;
     flex-direction: column;
@@ -32,6 +33,16 @@ export const ContactIcons = styled.div`
     align-items: center;
     width: 60%;
     margin-top: 30px;
+
+    @media (max-width: 600px){
+        font-size: 18px;
+        width: 75%;
+    }
+
+    @media (max-width: 450px){
+        font-size: 18px;
+        width: 100%;
+    }
 `
 
 export const ContactInfo = styled.a`
@@ -44,6 +55,8 @@ export const ContactInfo = styled.a`
     &:hover{
         color: #45ba9d;
     }
+
+    
 `
 
 export const GmailIcon = styled(Gmail)`
@@ -61,6 +74,7 @@ export const GmailIcon = styled(Gmail)`
         background-color: white;
         border-radius: 5px;
     }
+
 `
 
 export const LinkedinIcon = styled(Linkedin)`

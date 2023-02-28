@@ -7,6 +7,10 @@ export const LandingContainer = styled.div`
     margin-bottom: 20px;
     margin-top: 100px;
     padding: 2rem;
+
+    @media (max-width: 578px){
+        margin-top: 0px;
+    }
 `
 
 export const LandingIntro = styled.div`
@@ -17,11 +21,6 @@ export const LandingIntro = styled.div`
 `
 
 export const LandingTitle = styled.h1`
-    /* background: linear-gradient(97deg, rgba(69,124,186,1) 0%, rgba(69,186,157,1) 100%);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     color: black;
     font-size: 48px;
     margin-top: 20px;
@@ -51,5 +50,9 @@ export const LandingBtn = styled(Link)`
     &:hover{
         background-color: black;
         color: #45ba9d;
+    }
+
+    @media (max-width: 435px){
+        width: 50%;
     }
 `
